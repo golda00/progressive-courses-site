@@ -1086,315 +1086,386 @@ export const courseData = {
   ],
   "notes": "Highly project-driven — every module includes labs + mini-projects with enterprise datasets."
 },{
-  "id": "userc12",
-  "title": "CSE - AI Engineering – Semester-wise Industry-Aligned Skill Curriculum",
-  "duration": "Semester 2 to Semester 7 (40 Hours + 1 Immersion Day each)",
-  "level": "Progressive (Foundational to Advanced)",
-  "tags": ["AI Engineering","Python","Data Science","Full Stack","Cloud","DevOps","Generative AI"],
-  "oneliner": "A semester-wise AI Engineering curriculum designed to run parallel with university programs, combining hands-on learning, industry tools and immersive evaluations.",
-  "outcome": "Develop strong programming foundations, backend and data engineering skills, cloud-native deployment expertise and applied AI capabilities aligned with real-world industry requirements.",
-  "tools": ["Python","SQL","MongoDB","Node.js","React","Power BI","Tableau","AWS","Azure","Docker","CI/CD","Generative AI Tools"],
-  "modules": [
+  id: "cse-eng-addon",
+  title: "CSE Engineering",
+  subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
+  description:
+    "KTU-aligned, industry-focused 24-hour add-on courses designed to convert semester theory into advanced, hands-on and real-world AI, Data Science, and Full Stack skills.",
+  semesters: [
     {
-      "title": "Semester 2 – Programming Foundations & Computational Thinking",
-      "hours": 40 + 5,
-      "description": "Strengthen Python fundamentals and problem-solving skills alongside university coursework.",
-      "topics": [
-        "Python syntax, variables and control flow",
-        "Functions, modules and code structuring",
-        "Core data structures: lists, tuples, sets, dictionaries",
-        "Basic recursion and algorithmic thinking",
-        "File handling and exception management",
-        "Introduction to real-world problem modeling"
+      semester: "Semester 2",
+      title: "Advanced Python with Data Science",
+      hours: "24 Hours",
+      modules: [
+        "Advanced Python for Data Applications: OOP patterns, comprehensions, generators, decorators",
+        "Data Handling with NumPy & Pandas: joins, groupby, missing data handling",
+        "Data Visualization & Storytelling using Matplotlib, Seaborn, Plotly",
+        "API, JSON & Live Data Ingestion workflows",
+        "Mini Capstone: End-to-end Exploratory Data Analysis project"
       ],
-      "handsOn": "Daily guided coding exercises, logical problem sets and mini programs such as text analyzers and student record systems.",
-      "immersionDay": "Timed coding challenge, problem-solving assessment and peer code review with debugging session."
+      outcome:
+        "Students gain industry-level Python and data analysis skills without repeating basic syntax."
     },
     {
-      "title": "Semester 3 – Data Structures, Databases & Backend Logic",
-      "hours": 40 + 5,
-      "description": "Reinforce DSA and DBMS concepts through implementation-driven learning.",
-      "topics": [
-        "Linear and non-linear data structures in Python",
-        "Searching and sorting algorithms",
-        "Time and space complexity intuition",
-        "SQL fundamentals and relational modeling",
-        "Database normalization",
-        "Python–SQL integration"
+      semester: "Semester 3",
+      title: "Modern Web & Backend Foundations",
+      hours: "24 Hours",
+      modules: [
+        "Modern Frontend Essentials with responsive layouts",
+        "JavaScript ES6+, DOM manipulation, async programming",
+        "Databases: Advanced SQL and MongoDB schema design",
+        "Backend API development using Flask or Node.js",
+        "Mini Project: Full-stack web application"
       ],
-      "handsOn": "Implement stacks, queues, trees and graphs; design databases and build backend logic with database connectivity.",
-      "immersionDay": "DSA coding assessment, SQL query challenge and backend logic case discussion."
+      outcome:
+        "DBMS and DSA concepts are transformed into functional web systems."
     },
     {
-      "title": "Semester 4 – Web & Backend Application Engineering",
-      "hours": 40 + 5,
-      "description": "Introduce full-stack web development aligned with OS, CN and backend engineering concepts.",
-      "topics": [
-        "HTML5, CSS3 and JavaScript fundamentals",
-        "Client–server architecture",
-        "REST API design",
-        "Node.js and Express.js",
-        "MongoDB fundamentals",
-        "Authentication and authorization basics"
+      semester: "Semester 4",
+      title: "Machine Learning & Deep Learning",
+      hours: "24 Hours",
+      modules: [
+        "Data preprocessing and advanced feature engineering",
+        "Machine learning algorithms using Scikit-learn",
+        "Neural networks with Keras/TensorFlow",
+        "CNN or RNN focused implementation track",
+        "Mini Capstone: ML/DL model development and evaluation"
       ],
-      "handsOn": "Responsive frontend development, REST API creation and full-stack CRUD application development.",
-      "immersionDay": "Full-stack debugging lab, API testing challenge and application demo with evaluation."
+      outcome:
+        "Students build and evaluate ML models instead of focusing on mathematical derivations."
     },
     {
-      "title": "Semester 5 – Data Science & Business Intelligence",
-      "hours": 40 + 5,
-      "description": "Bridge statistical concepts with practical data analysis and business visualization.",
-      "topics": [
-        "Data preprocessing and cleaning",
-        "Exploratory Data Analysis (EDA)",
-        "Statistical intuition for data science",
-        "Data visualization principles",
-        "Power BI / Tableau dashboards",
-        "Business storytelling with data"
+      semester: "Semester 5",
+      title: "Applied AI & Deployment",
+      hours: "24 Hours",
+      modules: [
+        "Data mining techniques: clustering and association rules",
+        "Advanced ML models including Random Forest and XGBoost",
+        "AI applications in NLP and Computer Vision",
+        "Model deployment using Flask or FastAPI",
+        "Mini Capstone: End-to-end AI web service"
       ],
-      "handsOn": "Analyze real-world datasets, build interactive dashboards and generate business insights.",
-      "immersionDay": "Dashboard evaluation, case-based analytics challenge and data storytelling presentation."
+      outcome:
+        "Students learn to convert AI models into real, deployable products."
     },
     {
-      "title": "Semester 6 – Cloud Computing & DevOps Engineering",
-      "hours": 40 + 5,
-      "description": "Introduce scalable infrastructure, cloud services and modern DevOps practices.",
-      "topics": [
-        "Cloud computing fundamentals",
-        "AWS / Azure core services",
-        "Linux fundamentals for cloud",
-        "Docker and containerization",
-        "CI/CD concepts",
+      semester: "Semester 6",
+      title: "Full Stack Development (MERN)",
+      hours: "24 Hours",
+      modules: [
+        "Advanced React with hooks, routing, and state management",
+        "Node.js and Express backend development",
+        "MongoDB with authentication and JWT",
+        "Deployment and DevOps basics",
+        "Mini Capstone: Complete MERN stack application"
+      ],
+      outcome:
+        "Learners build a complete industry-grade full-stack application."
+    },
+    {
+      semester: "Semester 7",
+      title: "Generative AI & Applications",
+      hours: "24 Hours",
+      modules: [
+        "Generative AI fundamentals and LLM concepts",
+        "Text generation using GPT APIs and HuggingFace",
+        "Image generation with Stable Diffusion and prompt engineering",
+        "Multimodal AI including voice and vision-language models",
+        "Mini Capstone: GenAI application using Streamlit or Gradio"
+      ],
+      outcome:
+        "Students graduate with portfolio-ready Generative AI applications."
+    }
+  ]
+}
+,
+ {
+  id: "ai-eng-addon",
+  title: "CSE Artificial Intelligence Engineering",
+  subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
+  description:
+    "Practice-first add-on courses where university theory is executed, reinforced, and extended through hands-on implementation. Each course is optimized to 24 hours and aligned with KTU semester subjects.",
+  teachingModel:
+    "University explains concepts → Add-on executes and extends them through practice",
+  semesters: [
+    {
+      semester: "Semester 2",
+      title: "Python Programming & Computational Practice",
+      alignedSubjects: [
+        "Programming for Problem Solving",
+        "Python Programming"
+      ],
+      hours: "24 Hours",
+      modules: [
+        "Python program execution using control structures and functions",
+        "Data structures in practice: lists, dictionaries, and sets",
+        "Program structuring using functions and modular design",
+        "File handling with text, CSV, and structured data",
+        "Debugging techniques and exception handling",
+        "Problem modeling and logical step design"
+      ],
+      practicalEmphasis:
+        "Regular coding drills, logic-building exercises, and small utility programs",
+      outcome:
+        "Students gain confidence in Python programming and computational thinking required for advanced coursework."
+    },
+    {
+      semester: "Semester 3",
+      title: "Data Structures & Database Implementation",
+      alignedSubjects: [
+        "Data Structures",
+        "Database Management Systems"
+      ],
+      hours: "24 Hours",
+      modules: [
+        "Implementation of stacks, queues, and linked data structures",
+        "Application of searching and sorting algorithms",
+        "Relational database design and SQL querying",
+        "Practical data normalization exercises",
+        "Backend data handling using Python and databases"
+      ],
+      practicalEmphasis:
+        "Coding labs, database exercises, and backend logic assignments",
+      outcome:
+        "Students understand how structured data is stored, accessed, and processed in real applications."
+    },
+    {
+      semester: "Semester 4",
+      title: "Web & Backend Systems Practice",
+      alignedSubjects: [
+        "Operating Systems",
+        "Computer Networks",
+        "Web Technologies"
+      ],
+      hours: "24 Hours",
+      modules: [
+        "Frontend development for client-side interaction",
+        "REST API development and request handling",
+        "Backend logic implementation using Node.js",
+        "Database integration using MongoDB",
+        "Authentication and authorization workflows",
+        "API testing and debugging practices"
+      ],
+      practicalEmphasis:
+        "End-to-end application development with system integration focus",
+      outcome:
+        "Students gain real-world experience in building and debugging web applications."
+    },
+    {
+      semester: "Semester 5",
+      title: "Data Science & Business Intelligence Practice",
+      alignedSubjects: [
+        "Probability & Statistics",
+        "Machine Learning"
+      ],
+      hours: "24 Hours",
+      modules: [
+        "Data cleaning and preparation techniques",
+        "Exploratory Data Analysis on real datasets",
+        "Applied statistical analysis for decision making",
+        "Data visualization for insight communication",
+        "Dashboard creation using BI tools",
+        "Business insight interpretation and reporting"
+      ],
+      practicalEmphasis:
+        "Hands-on dataset analysis and dashboard-based projects",
+      outcome:
+        "Students learn to convert raw data into actionable business insights."
+    },
+    {
+      semester: "Semester 6",
+      title: "Cloud Computing & DevOps Practice",
+      alignedSubjects: [
+        "Cloud Computing",
+        "Software Engineering"
+      ],
+      hours: "24 Hours",
+      modules: [
+        "Application deployment on cloud platforms",
+        "Linux command-line operations for cloud servers",
+        "Containerization using Docker",
+        "CI/CD pipeline execution",
+        "Infrastructure automation using scripts",
+        "Monitoring and troubleshooting deployed systems"
+      ],
+      practicalEmphasis:
+        "Live cloud labs and deployment-oriented exercises",
+      outcome:
+        "Students understand how software systems operate in real production environments."
+    },
+    {
+      semester: "Semester 7",
+      title: "Applied AI, Generative AI & Agentic Systems",
+      alignedSubjects: [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      hours: "24 Hours",
+      modules: [
+        "Machine learning workflow execution",
+        "Generative AI usage through prompt-based systems",
+        "Design of simple agentic workflows",
+        "Introduction to MLOps concepts",
+        "Awareness of AI deployment in applications"
+      ],
+      practicalEmphasis:
+        "AI labs, agent simulations, and intelligent application exercises",
+      outcome:
+        "Students gain practical exposure to real-world AI systems and modern AI workflows."
+    }
+  ]
+}
+
+,
+{
+  id: "ds-eng-addon",
+  title: "CSE Data Science Engineering",
+  subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
+  pedagogy:
+    "Lab-centric, outcome-oriented, curriculum-synchronized",
+  purpose:
+    "Reinforce university theory through applied and advanced hands-on learning",
+  semesters: [
+    {
+      semester: "Semester 2",
+      title: "Programming Foundations & Computational Thinking",
+      courseTitle: "Applied Python Programming & Logical Thinking",
+      duration: "24 Hours",
+      objective:
+        "To reinforce Python fundamentals taught in the core curriculum by focusing on structured coding, logical reasoning, and applied problem-solving rather than syntax memorization.",
+      topics: [
+        "Structured Python programming with control flow and functions",
+        "Modular programming and code organization practices",
+        "Effective use of Python data structures for real problems",
+        "Logical problem decomposition and step-wise solution design",
+        "File handling techniques for data persistence",
+        "Exception handling for robust program execution"
+      ],
+      practicalEmphasis: [
+        "Translating problem statements into working Python logic",
+        "Writing clean, reusable, and readable Python code",
+        "Developing small-scale applications such as data processors and record managers"
+      ],
+      outcome:
+        "Students gain confidence in applying Python logically and efficiently, forming a strong base for data structures, AI, and backend programming in later semesters."
+    },
+    {
+      semester: "Semester 3",
+      title: "Data Structures, Databases & Backend Logic",
+      courseTitle: "Data Structures & Database Integration using Python",
+      duration: "24 Hours",
+      objective:
+        "To apply DSA and DBMS concepts taught in theory by implementing them programmatically and integrating databases with backend logic.",
+      topics: [
+        "Implementation of core data structures using Python",
+        "Algorithmic thinking using searching and sorting techniques",
+        "Performance understanding through complexity intuition",
+        "SQL query execution and relational data modeling",
+        "Database schema design aligned with real use cases",
+        "Python-database connectivity and data operations"
+      ],
+      practicalEmphasis: [
+        "Writing Python implementations of DSA concepts",
+        "Designing and querying structured databases",
+        "Backend logic development with database interaction"
+      ],
+      outcome:
+        "Students understand how data structures and databases operate together in real software systems and applications."
+    },
+    {
+      semester: "Semester 4",
+      title: "Web & Backend Application Engineering",
+      courseTitle: "Full Stack Application Development (MERN Foundations)",
+      duration: "24 Hours",
+      objective:
+        "To apply OS, CN, and backend concepts by building end-to-end web applications using modern full-stack technologies.",
+      topics: [
+        "Frontend fundamentals for dynamic web interfaces",
+        "Client-server communication models",
+        "RESTful API design and data flow",
+        "Backend development using Node.js and Express",
+        "NoSQL database fundamentals using MongoDB",
+        "Basic authentication and secure data handling"
+      ],
+      practicalEmphasis: [
+        "Developing responsive user interfaces",
+        "Creating and consuming REST APIs",
+        "Building a functional full-stack CRUD application"
+      ],
+      outcome:
+        "Students gain practical exposure to full-stack development workflows used in industry-grade web applications."
+    },
+    {
+      semester: "Semester 5",
+      title: "Data Science & Business Intelligence",
+      courseTitle: "Applied Data Science & Business Intelligence",
+      duration: "24 Hours",
+      objective:
+        "To convert statistical and data science theory into practical data analysis and business decision-making skills.",
+      topics: [
+        "Data cleaning and preprocessing techniques",
+        "Exploratory data analysis for insight discovery",
+        "Practical understanding of statistical measures",
+        "Visualization techniques for analytical clarity",
+        "Business dashboards using Power BI / Tableau",
+        "Data storytelling for business communication"
+      ],
+      practicalEmphasis: [
+        "Analyzing real-world datasets",
+        "Building interactive BI dashboards",
+        "Presenting insights for decision-making scenarios"
+      ],
+      outcome:
+        "Students learn to interpret data meaningfully and communicate insights effectively using industry-standard BI tools."
+    },
+    {
+      semester: "Semester 6",
+      title: "Cloud Computing & DevOps Engineering",
+      courseTitle: "Cloud Infrastructure & DevOps Practices",
+      duration: "24 Hours",
+      objective:
+        "To apply cloud and DevOps concepts by working with real infrastructure, deployment models, and automation practices.",
+      topics: [
+        "Cloud computing models and architectures",
+        "Core AWS / Azure services and use cases",
+        "Linux essentials for cloud environments",
+        "Containerization using Docker",
+        "CI/CD concepts and workflow understanding",
         "Infrastructure automation overview"
       ],
-      "handsOn": "Deploy cloud resources, containerize applications and simulate CI/CD pipelines.",
-      "immersionDay": "Cloud deployment challenge, CI/CD troubleshooting lab and architecture review discussion."
+      practicalEmphasis: [
+        "Deploying applications on cloud platforms",
+        "Containerizing applications for portability",
+        "Simulating CI/CD pipelines"
+      ],
+      outcome:
+        "Students understand how modern applications are deployed, managed, and scaled in cloud environments."
     },
     {
-      "title": "Semester 7 – Applied AI, Generative AI & Agentic Systems",
-      "hours": 40 + 5,
-      "description": "Align academic AI learning with real-world intelligent system development.",
-      "topics": [
-        "Machine learning workflow recap",
-        "Generative AI fundamentals",
-        "Prompt engineering strategies",
-        "Agentic AI concepts",
-        "Introduction to MLOps",
-        "AI system deployment concepts"
+      semester: "Semester 7",
+      title: "Applied AI, Generative AI & Agentic Systems",
+      courseTitle: "Applied Artificial Intelligence & Intelligent Systems",
+      duration: "24 Hours",
+      objective:
+        "To bridge academic AI learning with practical AI system design, focusing on modern generative and agent-based approaches.",
+      topics: [
+        "End-to-end machine learning workflow revision",
+        "Generative AI concepts and applications",
+        "Prompt engineering techniques",
+        "Fundamentals of agent-based AI systems",
+        "Introduction to MLOps concepts",
+        "Deployment considerations for AI systems"
       ],
-      "handsOn": "Build ML models, use generative AI tools, simulate agent workflows and develop a mini intelligent application.",
-      "immersionDay": "AI use-case evaluation, agent workflow demo and career-mapping discussion."
+      practicalEmphasis: [
+        "Implementing basic ML workflows",
+        "Using generative AI tools effectively",
+        "Simulating intelligent agent behaviors",
+        "Building small AI-powered applications"
+      ],
+      outcome:
+        "Students gain clarity on how AI systems are designed, deployed, and scaled in real-world environments."
     }
-  ],
-  "capstone": "Applied AI Engineering Project integrating data pipelines, intelligent models and deployment-ready systems.",
-  "notes": "Designed for CSE, AI and data-centric undergraduate programs with strong industry alignment and outcome-based learning."
-},{
-  "id": "userc13",
-  "title": "CSE – Data Science Engineering (Semester-wise Industry-Aligned Curriculum)",
-  "duration": "Semester 2 to Semester 7 (40 Hours + 1 Immersion Day each)",
-  "level": "Progressive (Intermediate to Advanced)",
-  "tags": ["Data Science","Python","SQL","Data Engineering","Machine Learning","MLOps","Analytics"],
-  "oneliner": "A semester-wise Data Science curriculum for CSE students, blending programming, data engineering, analytics, machine learning and industry-ready AI systems.",
-  "outcome": "Build strong data-centric programming skills, design data pipelines, analyze and visualize data, develop machine learning models and deploy scalable analytics systems.",
-  "tools": ["Python","SQL","NoSQL","Power BI","Tableau","REST APIs","Git","AWS","Azure","Machine Learning Libraries"],
-  "modules": [
-    {
-      "title": "Semester 2 – Advanced Python & Computational Thinking",
-      "hours": 40 + 5,
-      "description": "Strengthen Python as an engineering and data-oriented tool beyond basic syntax.",
-      "topics": [
-        "Advanced Python constructs: memory model, mutability, functional programming",
-        "Efficient data structures and Pythonic coding techniques",
-        "File handling for CSV, JSON and text data",
-        "Error handling, logging and basic automation",
-        "Data-centric problem modeling and validation",
-        "Algorithmic thinking and basic performance optimization"
-      ],
-      "handsOn": "Coding labs with real datasets, data parsing and cleaning exercises, automation scripts and a mini project for data cleaning and summary analysis.",
-      "immersionDay": "Advanced Python coding and debugging assessment with code optimization and refactoring challenge."
-    },
-    {
-      "title": "Semester 3 – Data Structures & Database Systems",
-      "hours": 40 + 5,
-      "description": "Reinforce data structures and database concepts through hands-on implementation.",
-      "topics": [
-        "Linear and non-linear data structures",
-        "Searching and sorting algorithms",
-        "Algorithm complexity intuition",
-        "Relational database concepts",
-        "SQL queries and joins",
-        "Python–SQL integration"
-      ],
-      "handsOn": "Implement DSA programs in Python, database design and query optimization with a mini data storage and retrieval project.",
-      "immersionDay": "DSA problem-solving assessment and SQL challenge on real datasets."
-    },
-    {
-      "title": "Semester 4 – Data Engineering & Backend for Analytics",
-      "hours": 40 + 5,
-      "description": "Introduce backend systems and data pipelines that support analytics platforms.",
-      "topics": [
-        "Backend concepts and REST APIs",
-        "Data ingestion pipelines",
-        "Working with JSON and APIs",
-        "Introduction to NoSQL databases",
-        "Data validation and preprocessing",
-        "Version control for data projects"
-      ],
-      "handsOn": "Build data APIs, create ingestion workflows and complete a backend-enabled analytics mini project.",
-      "immersionDay": "Data pipeline design challenge and API-based data integration task."
-    },
-    {
-      "title": "Semester 5 – Data Science & Business Intelligence",
-      "hours": 40 + 5,
-      "description": "Connect statistics, analysis and visualization with business decision-making.",
-      "topics": [
-        "Data cleaning and preprocessing",
-        "Exploratory Data Analysis (EDA)",
-        "Statistical measures for analytics",
-        "Data visualization principles",
-        "Power BI / Tableau dashboards",
-        "Data storytelling techniques"
-      ],
-      "handsOn": "Analyze real-world datasets, build interactive dashboards and execute a business insight generation project.",
-      "immersionDay": "Dashboard evaluation and case-based analytics presentation."
-    },
-    {
-      "title": "Semester 6 – Machine Learning & Cloud Foundations",
-      "hours": 40 + 5,
-      "description": "Introduce applied machine learning with foundational cloud integration.",
-      "topics": [
-        "Machine learning workflow and model lifecycle",
-        "Supervised and unsupervised learning",
-        "Model evaluation techniques",
-        "Introduction to cloud services (AWS / Azure)",
-        "Deploying machine learning models",
-        "Data storage in the cloud"
-      ],
-      "handsOn": "Build ML models using Python, deploy models on cloud platforms and complete an end-to-end ML mini project.",
-      "immersionDay": "ML model evaluation challenge and cloud deployment review."
-    },
-    {
-      "title": "Semester 7 – Advanced Analytics, AI & MLOps",
-      "hours": 40 + 5,
-      "description": "Prepare students for industry-grade data science and AI roles.",
-      "topics": [
-        "Advanced analytics workflows",
-        "Generative AI for data tasks",
-        "Feature engineering techniques",
-        "Model versioning and monitoring",
-        "MLOps fundamentals",
-        "End-to-end data science project lifecycle"
-      ],
-      "handsOn": "Complete an end-to-end analytics project, simulate model monitoring and implement an applied AI use case.",
-      "immersionDay": "Capstone-style project demo and career readiness discussion."
-    }
-  ],
-  "capstone": "Industry-grade Data Science project covering data ingestion, analysis, modeling, deployment and monitoring.",
-  "notes": "Designed for CSE students specializing in Data Science, aligned with academic syllabi and modern industry practices."
-},
-{
-  "id": "userc14",
-  "title": "CSE (Engineering) Add-on Courses — Semester-wise Industry Track",
-  "duration": "Semester 2 to Semester 7 (40 Hours + 1 Day Industry Challenge each)",
-  "level": "Progressive (Foundations to Advanced)",
-  "tags": ["Python","Web Development","Machine Learning","AI","Full Stack","Generative AI","Cloud"],
-  "oneliner": "Industry-ready, semester-wise add-on courses designed to extend core CSE curriculum with hands-on skills, real-world projects and deployment experience.",
-  "outcome": "Develop strong programming, software engineering, AI and full-stack development skills with real deployment, industry challenges and interview readiness.",
-  "tools": ["Python","NumPy","Pandas","React","Node.js","MongoDB","TensorFlow","HuggingFace","AWS","Docker","GitHub"],
-  "modules": [
-    {
-      "title": "Semester 2 Add-on — Advanced Python with Data Science",
-      "hours": 40 + 5,
-      "description": "Advance Python programming into data science libraries, automation and analytics workflows.",
-      "topics": [
-        "Advanced Python: OOP, generators and decorators",
-        "Data handling with NumPy and Pandas",
-        "Data visualization using Matplotlib, Seaborn and Plotly",
-        "API consumption and JSON handling",
-        "Exploratory Data Analysis on real datasets",
-        "Capstone Python data science project"
-      ],
-      "handsOn": "Real dataset analysis, automation scripts and a Python-based data science capstone project.",
-      "immersionDay": "PyData Sprint — quiz, Kaggle dataset hackathon and mock data analyst interview."
-    },
-    {
-      "title": "Semester 3 Add-on — Software Engineering & Backend Systems Foundations",
-      "hours": 40 + 5,
-      "description": "Balance frontend, backend and DevOps fundamentals aligned with DBMS and DSA coursework.",
-      "topics": [
-        "Modern frontend: HTML5, CSS3, Bootstrap or Tailwind",
-        "JavaScript ES6+ and DOM manipulation",
-        "Databases: advanced SQL and MongoDB",
-        "Backend API development using Flask or Node.js",
-        "Version control and DevOps basics: Git, GitHub, CI/CD",
-        "Capstone mini web application"
-      ],
-      "handsOn": "Build and deploy a mini web application with frontend, backend and database integration.",
-      "immersionDay": "WebOps Sprint — frontend quiz, rapid web app deployment and mock software engineering interview."
-    },
-    {
-      "title": "Semester 4 Add-on — Machine Learning & Deep Learning Foundations",
-      "hours": 40 + 5,
-      "description": "Expand probability and soft computing concepts into applied ML and deep learning.",
-      "topics": [
-        "Data preprocessing and feature engineering",
-        "Supervised and unsupervised machine learning",
-        "Neural networks with TensorFlow and Keras",
-        "CNNs for image classification",
-        "RNNs for sequential data",
-        "Capstone ML/DL project"
-      ],
-      "handsOn": "Model training using real datasets and a complete ML/DL capstone implementation.",
-      "immersionDay": "AI Foundations Lab — ML/DL quiz, Kaggle hackathon and mock AI engineer interview."
-    },
-    {
-      "title": "Semester 5 Add-on — Applied AI & Deployment",
-      "hours": 40 + 5,
-      "description": "Focus on AI applications, data mining and real-world model deployment.",
-      "topics": [
-        "Data mining techniques for AI",
-        "Advanced ML algorithms including XGBoost and Random Forests",
-        "NLP with HuggingFace and computer vision with OpenCV",
-        "Model deployment using Flask or FastAPI",
-        "Cloud AI services overview",
-        "Capstone AI deployment project"
-      ],
-      "handsOn": "Deploy AI models as web services and build an end-to-end applied AI system.",
-      "immersionDay": "AI in Action — AI quiz, deployment hackathon and mock AI/ML interview."
-    },
-    {
-      "title": "Semester 6 Add-on — Full Stack Development (MERN)",
-      "hours": 40 + 5,
-      "description": "End-to-end full stack application development using the MERN stack.",
-      "topics": [
-        "Advanced React: hooks, routing and state management",
-        "Node.js and Express backend development",
-        "MongoDB with Mongoose ORM",
-        "Authentication and JWT-based security",
-        "Deployment using Docker and cloud platforms",
-        "Capstone MERN full stack project"
-      ],
-      "handsOn": "Build and deploy a production-ready MERN stack application.",
-      "immersionDay": "Full Stackathon — debugging challenge, rapid MERN build contest and system design interview."
-    },
-    {
-      "title": "Semester 7 Add-on — Generative AI & Applications",
-      "hours": 41,
-      "description": "Expose students to modern generative AI systems and application development.",
-      "topics": [
-        "Generative AI fundamentals: LLMs and diffusion models",
-        "Text generation using GPT and transformers",
-        "Image generation with Stable Diffusion and DALL·E",
-        "Voice and vision AI tools: Whisper, CLIP, BLIP",
-        "Cloud deployment of GenAI applications",
-        "Capstone GenAI project"
-      ],
-      "handsOn": "Build and deploy generative AI tools using open-source models and cloud platforms.",
-      "immersionDay": "GenAI Innovators Hack — GenAI quiz, tool-building challenge and mock AI research interview."
-    }
-  ],
-  "capstone": "Semester-wise capstones culminating in full-stack, AI and generative AI deployment projects.",
-  "notes": "Designed as industry-aligned add-on courses for CSE students, complementing university syllabus with practical skills and deployment exposure."
+  ]
 }
 
   ]
