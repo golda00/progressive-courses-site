@@ -1086,8 +1086,8 @@ export const courseData = {
   ],
   "notes": "Highly project-driven — every module includes labs + mini-projects with enterprise datasets."
 },{
-  id: "cse-eng-addon",
-  title: "CSE Engineering",
+  id: "userc12",
+  title: "Computer Science Engineering (Combined Academic Programme) ",
   subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
   description:
     "KTU-aligned, industry-focused 24-hour add-on courses designed to convert semester theory into advanced, hands-on and real-world AI, Data Science, and Full Stack skills.",
@@ -1180,8 +1180,8 @@ export const courseData = {
 }
 ,
  {
-  id: "ai-eng-addon",
-  title: "CSE Artificial Intelligence Engineering",
+  id: "userc13",
+  title: "CSE Artificial Intelligence Engineering (Combined Academic Programme)",
   subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
   description:
     "Practice-first add-on courses where university theory is executed, reinforced, and extended through hands-on implementation. Each course is optimized to 24 hours and aligned with KTU semester subjects.",
@@ -1318,8 +1318,8 @@ export const courseData = {
 
 ,
 {
-  id: "ds-eng-addon",
-  title: "CSE Data Science Engineering",
+  id: "userc14",
+  title: "CSE Data Science Engineering (Combined Academic Programme)",
   subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
   pedagogy:
     "Lab-centric, outcome-oriented, curriculum-synchronized",
