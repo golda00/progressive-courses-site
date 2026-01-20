@@ -1087,17 +1087,20 @@ export const courseData = {
   "notes": "Highly project-driven — every module includes labs + mini-projects with enterprise datasets."
 },
 {
-  id: "userc12",
-  title: "Computer Science Engineering (Combined Academic Programme) ",
-  subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
-  description:
-    "KTU-aligned, industry-focused 24-hour add-on courses designed to convert semester theory into advanced, hands-on and real-world AI, Data Science, and Full Stack skills.",
+  "id": "userc12",
+  "title": "Computer Science Engineering (Combined Academic Programme) ",
+  "duration": "24 Hours per Semester (Sem 2–7)",
+  "level": "Undergraduate | Progressive",
+  "tags": ["AI Engineering", "Python", "ML", "Data Science", "Cloud", "GenAI"],
+  "oneliner":
+    "A semester-wise AI Engineering add-on curriculum designed to reinforce university theory through advanced, hands-on industry practices.",
+  outcome:
+    "Students gain strong applied skills across programming, data science, cloud, full stack, and modern AI systems aligned with industry needs.",
   semesters: [
-    {
-      semester: "Semester 2",
+    { semester:"Semester 2",
       title: "Advanced Python with Data Science",
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Advanced Python for Data Applications: OOP patterns, comprehensions, generators, decorators",
         "Data Handling with NumPy & Pandas: joins, groupby, missing data handling",
         "Data Visualization & Storytelling using Matplotlib, Seaborn, Plotly",
@@ -1110,8 +1113,8 @@ export const courseData = {
     {
       semester: "Semester 3",
       title: "Modern Web & Backend Foundations",
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Modern Frontend Essentials with responsive layouts",
         "JavaScript ES6+, DOM manipulation, async programming",
         "Databases: Advanced SQL and MongoDB schema design",
@@ -1124,8 +1127,8 @@ export const courseData = {
     {
       semester: "Semester 4",
       title: "Machine Learning & Deep Learning",
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Data preprocessing and advanced feature engineering",
         "Machine learning algorithms using Scikit-learn",
         "Neural networks with Keras/TensorFlow",
@@ -1138,8 +1141,8 @@ export const courseData = {
     {
       semester: "Semester 5",
       title: "Applied AI & Deployment",
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Data mining techniques: clustering and association rules",
         "Advanced ML models including Random Forest and XGBoost",
         "AI applications in NLP and Computer Vision",
@@ -1152,8 +1155,8 @@ export const courseData = {
     {
       semester: "Semester 6",
       title: "Full Stack Development (MERN)",
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Advanced React with hooks, routing, and state management",
         "Node.js and Express backend development",
         "MongoDB with authentication and JWT",
@@ -1166,8 +1169,8 @@ export const courseData = {
     {
       semester: "Semester 7",
       title: "Generative AI & Applications",
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Generative AI fundamentals and LLM concepts",
         "Text generation using GPT APIs and HuggingFace",
         "Image generation with Stable Diffusion and prompt engineering",
@@ -1181,11 +1184,12 @@ export const courseData = {
 }
 ,
  {
-  id: "userc13",
-  title: "CSE Artificial Intelligence Engineering (Combined Academic Programme)",
-  subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
-  description:
-    "Practice-first add-on courses where university theory is executed, reinforced, and extended through hands-on implementation. Each course is optimized to 24 hours and aligned with KTU semester subjects.",
+  "id": "userc13",
+  "title": "CSE Artificial Intelligence Engineering (Combined Academic Programme)",
+  "duration": "24 Hours per Semester",
+  "level":"Intermediate",
+  "oneliner":
+    "Practice-first add-on courses where university theory is executed, reinforced, and extended through hands-on implementation.",
   teachingModel:
     "University explains concepts → Add-on executes and extends them through practice",
   semesters: [
@@ -1196,8 +1200,8 @@ export const courseData = {
         "Programming for Problem Solving",
         "Python Programming"
       ],
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Python program execution using control structures and functions",
         "Data structures in practice: lists, dictionaries, and sets",
         "Program structuring using functions and modular design",
@@ -1217,8 +1221,8 @@ export const courseData = {
         "Data Structures",
         "Database Management Systems"
       ],
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Implementation of stacks, queues, and linked data structures",
         "Application of searching and sorting algorithms",
         "Relational database design and SQL querying",
@@ -1238,8 +1242,8 @@ export const courseData = {
         "Computer Networks",
         "Web Technologies"
       ],
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Frontend development for client-side interaction",
         "REST API development and request handling",
         "Backend logic implementation using Node.js",
@@ -1259,8 +1263,8 @@ export const courseData = {
         "Probability & Statistics",
         "Machine Learning"
       ],
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Data cleaning and preparation techniques",
         "Exploratory Data Analysis on real datasets",
         "Applied statistical analysis for decision making",
@@ -1280,8 +1284,8 @@ export const courseData = {
         "Cloud Computing",
         "Software Engineering"
       ],
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Application deployment on cloud platforms",
         "Linux command-line operations for cloud servers",
         "Containerization using Docker",
@@ -1301,8 +1305,8 @@ export const courseData = {
         "Artificial Intelligence",
         "Machine Learning"
       ],
-      hours: "24 Hours",
-      modules: [
+      duration: "24 Hours",
+      topics: [
         "Machine learning workflow execution",
         "Generative AI usage through prompt-based systems",
         "Design of simple agentic workflows",
@@ -1319,18 +1323,18 @@ export const courseData = {
 
 ,
 {
-  id: "userc14",
-  title: "CSE Data Science Engineering (Combined Academic Programme)",
-  subtitle: "24 Hours per Semester | Practical & Advanced Application Focus",
-  pedagogy:
-    "Lab-centric, outcome-oriented, curriculum-synchronized",
-  purpose:
+  "id": "userc14",
+  "title": "CS Data Science Engineering (Combined Academic Programme)",
+  "duration": "24 Hours per Semester",
+  "level":"Advanced",
+  "tags":["Lab-centric, outcome-oriented, curriculum-synchronized"],
+  "oneliner":
     "Reinforce university theory through applied and advanced hands-on learning",
   semesters: [
     {
       semester: "Semester 2",
-      title: "Programming Foundations & Computational Thinking",
-      courseTitle: "Applied Python Programming & Logical Thinking",
+      Coursetitle: "Programming Foundations & Computational Thinking",
+      title: "Applied Python Programming & Logical Thinking",
       duration: "24 Hours",
       objective:
         "To reinforce Python fundamentals taught in the core curriculum by focusing on structured coding, logical reasoning, and applied problem-solving rather than syntax memorization.",
@@ -1352,8 +1356,8 @@ export const courseData = {
     },
     {
       semester: "Semester 3",
-      title: "Data Structures, Databases & Backend Logic",
-      courseTitle: "Data Structures & Database Integration using Python",
+      Coursetitle: "Data Structures, Databases & Backend Logic",
+      title: "Data Structures & Database Integration using Python",
       duration: "24 Hours",
       objective:
         "To apply DSA and DBMS concepts taught in theory by implementing them programmatically and integrating databases with backend logic.",
@@ -1375,8 +1379,8 @@ export const courseData = {
     },
     {
       semester: "Semester 4",
-      title: "Web & Backend Application Engineering",
-      courseTitle: "Full Stack Application Development (MERN Foundations)",
+      Coursetitle: "Web & Backend Application Engineering",
+      title: "Full Stack Application Development (MERN Foundations)",
       duration: "24 Hours",
       objective:
         "To apply OS, CN, and backend concepts by building end-to-end web applications using modern full-stack technologies.",
@@ -1398,8 +1402,8 @@ export const courseData = {
     },
     {
       semester: "Semester 5",
-      title: "Data Science & Business Intelligence",
-      courseTitle: "Applied Data Science & Business Intelligence",
+      Coursetitle: "Data Science & Business Intelligence",
+      title: "Applied Data Science & Business Intelligence",
       duration: "24 Hours",
       objective:
         "To convert statistical and data science theory into practical data analysis and business decision-making skills.",
@@ -1421,8 +1425,8 @@ export const courseData = {
     },
     {
       semester: "Semester 6",
-      title: "Cloud Computing & DevOps Engineering",
-      courseTitle: "Cloud Infrastructure & DevOps Practices",
+      Coursetitle: "Cloud Computing & DevOps Engineering",
+      title: "Cloud Infrastructure & DevOps Practices",
       duration: "24 Hours",
       objective:
         "To apply cloud and DevOps concepts by working with real infrastructure, deployment models, and automation practices.",
@@ -1444,8 +1448,8 @@ export const courseData = {
     },
     {
       semester: "Semester 7",
-      title: "Applied AI, Generative AI & Agentic Systems",
-      courseTitle: "Applied Artificial Intelligence & Intelligent Systems",
+      Coursetitle: "Applied AI, Generative AI & Agentic Systems",
+      title: "Applied Artificial Intelligence & Intelligent Systems",
       duration: "24 Hours",
       objective:
         "To bridge academic AI learning with practical AI system design, focusing on modern generative and agent-based approaches.",
